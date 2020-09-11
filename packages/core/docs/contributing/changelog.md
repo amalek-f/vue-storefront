@@ -4,6 +4,16 @@
 
 ### Breaking changes
 
+- #4616
+
+| Place | Before | 2.1.0 |
+|---|---|---|
+| useCartFactory | appliedCoupon ref exists | appliedCoupon removed |
+| useCartFactory | coupon computed returned in useCart | coupon computed removed |
+| useCartFactory | COUPON type in generic | COUPON type removed from generic |
+| types | - | Added AgnosticCoupon type |
+| types | - | `getCoupon` method added to CartGetters interface |
+
 ### Changes
 
 * **factories**: added useUserBillingFactory and useUserShippingFactory factory ([#4809](https://github.com/DivanteLtd/vue-storefront/issues/4809))
